@@ -197,7 +197,7 @@ describe('Shop CRUD routes tests', function () {
 
     });
 
-    xit('should be shop delete not use token', function (done) {
+    xit('should be shop delete not use token ', function (done) {
 
         request(app)
             .post('/api/shops')
